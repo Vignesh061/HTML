@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+</head>
+<body>
+    <div style="padding: 40px;">
+    <form action="index.php">
+    <h3>LOGIN</h3>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <br>
+    <label for="mail">Gmail:</label>
+    <input type="mail" id="mail" name="mail" placeholder="Enter your mail" required>
+    <br>
+    <label for="bof">D.o.b:</label>
+    <input type="date" id="date" name="date" required>
+    <br>
+
+    <label for="Gender:">Gender:</label>
+    <label for="male">male</label>
+    <input type="radio" id="male" value="male" name="Gender">
+    <label for="female">female</label>
+    <input type="radio"  id="female" name="Gender" value="female">
+    <br>
+
+    <label for="phone">PhoneNo:</label>
+    <input type="number" id="phone" name="phone">
+    <br>
+
+    <label for="course">Course:</label>
+    <!-- The <select> tag  is used to create a drop-down list,
+    which allows users to select one option from a predefined set of choices -->
+    <select  id="course">
+        <!-- The <option> tag is used to define individual items within 
+            a drop-down list created by the <select> tag. -->
+        <option value="Python">Python</option>
+        <option value="CSS">CSS</option>
+        <option value="JS">JS</option>
+    </select> 
+    <br>
+
+    <label for="completed">completed</label>
+    <input type="checkbox" id="completed">
+    <br>
+
+    <label for="comment"> comment</label>
+    <!-- The <textarea> tag in HTML is used to create a multi-line text input field,
+     which is essential for collecting larger amounts of user input, such as comments, reviews, or messages. -->
+     <textarea name="comment" id="comment" cols="40" rows="3"></textarea>
+   <br>
+   <label for="file">file:</label>
+   <input type="file" id="file">
+ <br>
+
+ <input type="submit"><br>
+ <input type="reset"><br>
+    </form></div>
+</body>
+</html>
