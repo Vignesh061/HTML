@@ -1,0 +1,44 @@
+
+body{
+    background-color:black;
+    margin:0px;
+}
+h1{
+    text-shadow:3px 3px 5px rgb(232, 28, 28), -3px -3px 5px rgb(13, 146, 229);
+    text-align:center;
+    color:rgb(22, 15, 239)
+
+    /* the first 2px is for horizontal offset and the next 2px is vretical off set and the next 2px is for blur the font and this shadow effect in the down */
+    /* -3px -3px 5px rgb(13, 146, 229); in this the first 3px is  horizontal off set and the next 3px is vertical off set and the 5px is for blut the font and this effent in the upward
+     */
+}
+.box{
+
+    width:200px;
+    height:200px;
+    background-color:aqua;
+    box-shadow:3px 3px 5px red;
+    text-align: center;
+    margin:auto;
+
+}
+#box2{
+
+    margin-left:50px;
+    margin-top:250px;
+    margin-bottom:50px;
+
+
+
+
+}
+#box3{
+
+    margin-right:50px;
+    margin-top:250px;
+    margin-bottom:50px;
+    
+     /* the margin  property is used to move a box */
+    
+    }
+    
