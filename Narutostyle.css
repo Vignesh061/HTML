@@ -7,6 +7,7 @@ body{
 }
 #img1{
     float:left;
+/*     the float property is allow the element flow around it */
     margin-right:20px;
  
 }
@@ -16,6 +17,7 @@ body{
 }
 h3{
     margin-top :10px;
+/*     the margin property is used to create a space around the element */
     margin-left:20px;
     color:rgb(206, 20, 20);
     text-shadow: 4px 4px 8px rgb(10, 14, 233)
