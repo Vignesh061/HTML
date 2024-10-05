@@ -1,0 +1,44 @@
+
+
+a:link{
+    color:rgb(21, 92, 216);
+}
+a:hover{
+    color:red;
+    font-size: 1.1em;
+    /* The a:hover pseudo-class in CSS is used to apply styles to a link when the user hovers over it with their mouse. This can enhance user interaction and improve the visual feedback on your website. Here are some common uses:
+
+Change Link Color: You can change the color of the link when the user hovers over it. */
+}
+a:active{
+    color:palevioletred;
+    font-size: 1.1em;
+    /* The a:active pseudo-class in CSS is used to apply styles to a link when it is being activated by the user, typically during the time between when the user presses the mouse button and releases it. This can provide immediate visual feedback to the user, enhancing the interactivity of your website. Here are some common uses:
+
+Change Link Color: You can change the color of the link when it is active. */
+}
+a:visited{
+    color:aqua;
+    /*  The a:visited pseudo-class in CSS is used to style links that the user has already visited. This can help users distinguish between links they have and haven’t clicked on, improving navigation and user experience. Here are some common uses:
+
+Change Link Color: You can change the color of the link after it has been visited.*/
+}
+.ul:hover{
+    background-color:yellow;
+
+}
+.ul:not(:hover){
+    background-color:rgb(159, 97, 97);
+}
+li:nth-child(odd){
+    background-color:yellow;
+}
+#greeting p{
+    background-color:aqua;
+    padding:10px;
+    display:none;
+}
+#greeting:hover p{
+    /* background-color: */
+    display:block;
+}
