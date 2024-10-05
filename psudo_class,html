@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudo-class</title>
+    <link rel="stylesheet" href="Psudo_class_style.css">
+</head>
+<body>
+    
+    <!-- psudo-class -->
+    <a href="https://copilot.microsoft.com/?dpwa=1">Copilet</a>
+    <ul>
+        <li class="ul"> this is list 1</li>
+        <li class="ul"> this is list 2</li>
+        <li class="ul"> this is list 3</li>
+        <li class="ul"> this is list 4</li>
+        <li class="ul"> this is list 5</li>
+        <li class="ul"> this is list 6</li>
+        <li class="ul"> this is list 7</li>
+        <li class="ul"> this is list 8</li>
+    </ul>
+    <ol> 
+        <li> this is order list 1 </li>
+        <li> this is order list 2</li>
+        <li> this is order list 3</li>
+        <li> this is order list 4</li>
+        <li> this is order list 5</li>
+        <li> this is order list 6</li>
+        <li> this is order list 7</li>
+        <li> this is order list 8</li>
+    </ol>
+    <br>
+    <div id="greeting"> hover here
+        <p> this is hide</p>
+    </div>
+</body>
+</html>
