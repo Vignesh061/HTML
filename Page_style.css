@@ -1,0 +1,63 @@
+.pagination{
+    text-align:center;
+}
+.pagination a{
+    padding: 8px 10px;
+    text-decoration:none;
+    color:black;
+    display:inline-block;
+
+
+}
+.pagination a.active{
+    background-color:red;
+    border-width:solid;
+    border-radius:7px;
+
+}
+.pagination a:hover:not(.active){
+    background-color:rgb(172, 35, 172);
+    border-radius:7px;
+}
+body{
+    background-color:rgb(189, 218, 223);
+    color:white;
+    border: 3px solid;
+    display:flow-root;
+
+}
+#img1{
+    float:left;
+/*     the float property is allow the element flow around it */
+    margin-right:20px;
+ 
+}
+#img2{
+    float:right;
+    margin-left:23px;
+}
+h3{
+    margin-top :10px;
+/*     the margin property is used to create a space around the element */
+    margin-left:20px;
+    color:rgb(206, 20, 20);
+    text-shadow: 4px 4px 8px rgb(10, 14, 233)
+
+}
+h1{
+    text-align:center;
+    text-shadow: 4px 4px 8px rgb(233, 10, 10)
+}
+#p1{
+    color:blueviolet;
+}
+#p2{
+    color:blue;
+
+}
+#p3{
+    color:rgb(220, 84, 30);
+}
+#p4{
+    color:rgb(70, 104, 85);
+}
