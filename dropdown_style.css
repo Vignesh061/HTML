@@ -1,0 +1,41 @@
+a{
+    text-decoration:none;
+    display:block;
+    /* margin:20px; */
+    color:black;
+    padding:10px 15px;
+    background:rgb(219, 129, 129);
+
+
+}
+.dropdown button{
+    padding:8px 15px;
+    cursor:pointer;
+     background-color:rgb(102, 210, 210);
+     border:none;
+     color:blue;
+     /* display:inline-block; */
+     /* margin:20px; */
+
+}
+.dropdown .content{
+    display:none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow:4px 4px  5px hsl(0, 84%, 64%)
+    
+}
+.dropdown:hover .content{
+    display:block;
+
+}
+.dropdown:hover button{
+    background-color:blue;
+    color:rgb(102, 210, 210);
+}
+a:hover{
+    background-color:aquamarine
+}
+.dropdown{
+    display:inline-block;
+}
