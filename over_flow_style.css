@@ -1,0 +1,26 @@
+.div{
+    border:3px solid;
+    height:80px;
+    margin-top:50px;
+
+}
+#div1{
+    overflow:visible;
+    /* the overflow visible property means the content is not clipped and render outside of the box element */
+}
+#div2{
+    overflow:hidden;
+    /* the overflow hidden property is used to making any overflow invisible*/
+}
+#div3{
+    overflow:clip;
+    /* it is similar to the hidden property  */
+}
+#div4{
+    overflow:scroll;
+    /* this property is used ensure the scroll bar always present even the content is does not curretly overflow */
+}
+#div5{
+    overflow:auto;
+    /* this property is used to add a scroll bar when the content overflow the elements box and the content is fit within the continer ,no scroll bar is show */
+}
