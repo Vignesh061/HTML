@@ -33,5 +33,5 @@ p::selection{
 .fruit li::marker{
     content:"✔️";
     color:rgb(155, 21, 21);
-    font-size:1.zem;
+    font-size:1.2em;
 }
